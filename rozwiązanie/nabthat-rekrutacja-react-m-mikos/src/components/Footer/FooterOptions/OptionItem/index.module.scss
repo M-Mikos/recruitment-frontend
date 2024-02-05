@@ -1,0 +1,20 @@
+@import "../../../../styles/global/main";
+
+.option {
+  display: flex;
+  align-items: center;
+  font-size: 1.4rem;
+  line-height: 1.5;
+  font-weight: 700;
+  text-transform: uppercase;
+
+  &:hover {
+    color: $primary;
+  }
+
+  &__icon,
+  & svg {
+    width: 2.4rem;
+    height: 2.4rem;
+  }
+}

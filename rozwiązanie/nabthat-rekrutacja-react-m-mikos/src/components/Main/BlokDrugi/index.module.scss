@@ -1,0 +1,11 @@
+@import "../../../styles/global/main";
+
+.actions {
+  display: flex;
+  justify-content: center;
+  gap: 4rem;
+  width: 100%;
+  &__button {
+    flex: 0 1 18rem;
+  }
+}
